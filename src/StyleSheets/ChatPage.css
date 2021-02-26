@@ -52,14 +52,72 @@
        border: 1px solid #1d3557;
        font-size: 16px;
        outline: none;
-       margin-top: 75vh;
+       /* display: flex;
+       flex-direction: column-reverse; */
+       /* margin-top: 75vh; */
+}
+
+.messages {
+       height: 88%;
+       /* border: 2px solid red; */
+       overflow-y: scroll;
+       overflow-x: hidden;
+       align-items: flex-end;
+}
+
+.mymessage {
+       align-items: flex-end;
+}
+
+.myImgIcon {
+       color: #1D3557;
+       font-size: 20px;
+       border: 2px solid #1D3557;
+       border-radius: 50%;
+       padding: 10px;
+       margin: 5px 10px;
+}
+
+.friendImgIcon {
+       color: #1D3557;
+       font-size: 20px;
+       border: 2px solid #1D3557;
+       border-radius: 50%;
+       padding: 10px;
+       margin: 5px 10px 5px 20px;
+}
+
+.mymessageList {
+       /* margin-top: 24%; */
+       display: flex;
+       list-style: none;
+       line-height: 55px;
+       padding-left: 35px;
+       padding-right: -35px;
+       background: #A8DADC;
+       width: 160px;
+       margin-left: 78%;
+       border-radius: 20px;
+       color: #1D3557;
+}
+
+.friendmessageList {
+       display: flex;
+       list-style: none;
+       line-height: 50px;
+       padding-right: 30px;
+       background: #A8DADC;
+       width: 190px;
+       border-radius: 20px;
+       color: #1D3557;
 }
 
 .sendBtn {
        /* width: 10%; */
+       /* position: absolute; */
        color: #A8DADC;
        background-color: #1D3557;
-       padding: 16px;
+       padding: 16px 25px;
        border: 1px solid #1d3557;
        font-size: 16px;
        outline: none;
